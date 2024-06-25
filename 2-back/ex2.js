@@ -6,7 +6,6 @@ class ProductManager {
         this.products = [];
         this.currentId = 0;
 
-        // Load existing products if the file exists
         this.loadProducts();
     }
 
@@ -94,7 +93,6 @@ class ProductManager {
     }
 }
 
-// Exemplo de uso
 const productManager = new ProductManager('products.json');
 
 productManager.addProduct({
