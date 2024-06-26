@@ -119,3 +119,5 @@ productManager.updateProduct(1, { price: 150 });
 console.log(productManager.getProductById(1));
 productManager.deleteProduct(2);
 console.log(productManager.getProducts());
+
+// :)
